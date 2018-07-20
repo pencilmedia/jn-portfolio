@@ -2,7 +2,6 @@
   "name": "joel-nave-portfolio",
   "version": "1.0.0",
   "dependencies": {
-    "fastclick": "^1.0.6",
     "jquery": "^3.3.1"
   },
   "devDependencies": {
@@ -17,6 +16,7 @@
     "grunt-npmcopy": "^0.1.0",
     "grunt-postcss": "^0.7.2",
     "grunt-sass": "^1.1.0",
+    "node-sass": "^4.9.2",
     "stylelint": "^4.4.0"
   },
   "scripts": {

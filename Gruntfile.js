@@ -25,7 +25,7 @@ module.exports = function (grunt) {
       "string-quotes": "double",
       "value-no-vendor-prefix": true
     }
-  }
+  };
 
   grunt.initConfig({
     copy: {
@@ -45,7 +45,7 @@ module.exports = function (grunt) {
             src: ['**', '!styles/**', '!scss/**'],
             dest: 'dist/assets/'
           }
-        ],
+        ]
       },
       bower_components: {
         files: [
@@ -55,7 +55,7 @@ module.exports = function (grunt) {
             src: ['**'],
             dest: 'dist/assets/vendor/'
           }
-        ],
+        ]
       }
     },
 
@@ -68,7 +68,7 @@ module.exports = function (grunt) {
         tasks: ['copy:main']
       },
       sass: {
-        files: ['assets/scss/main.scss'],
+        files: ['assets/scss/*.scss'],
         tasks: ['sass', 'cssmin']
       },
       assets: {
