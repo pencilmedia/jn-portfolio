@@ -6,6 +6,11 @@ $bodyFontFamily: 'Helvetica Nueue', Arial, Helvetica, sans-serif;
 $bodyFontSize: 14px;
 $bodyColor: $greyDarkest;
 
+/* Layout */
+$borderColor:             $greySoft;
+$borderColorLight:        lighten($greySoft, 3%);
+$borderColorDark:         darken($greySoft, 20%);
+
 /* Responsive Widths */
 $screen-xxl: 	1920px;
 $screen-xl: 	1440px;

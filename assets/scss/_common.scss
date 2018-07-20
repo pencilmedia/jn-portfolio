@@ -6,5 +6,32 @@ body {
      font-size: $bodyFontSize;
      color: $bodyColor;
      background: $greyLightest;
-     padding: 2.5% 5%;
+     padding: 20px 5%;
+}
+
+// Override typography styles
+h5 {
+     border-bottom: 1px solid $borderColorDark;
+}
+p {
+     margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    li {
+        padding-left: 5px;
+    }
+}
+
+.bio {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    .bio--photo, .bio--info {
+        // outline: 1px solid blue;
+    }
+    .bio--info {
+        padding: 0 10px;
+    }
 }

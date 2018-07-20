@@ -1,6 +1,12 @@
 /* BEGIN: _typography.scss
 // -----------------------------------------------------*/
 
+
+h1, h2, h3, h4, h5, h6 {
+     margin: 0;
+     padding: 0 0 10px 0;
+}
+
 h1 {
      font-size: 34px;
 }
@@ -18,4 +24,9 @@ h5 {
 }
 h6 {
      font-size: 14px;
+}
+
+p {
+     margin: 0;
+     padding: 0 0 15px 0;
 }
