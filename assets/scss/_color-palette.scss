@@ -7,7 +7,12 @@ $black: 		     #000;
 $grey:              #666;
 
 // Colors
-$greyDarkest:       darken($grey, 30%);
+$greyLightest:       lighten($grey, 55%);
+$greyLighter:        lighten($grey, 40%);
+$greyLight:          lighten($grey, 25%);
+$greyDark:           darken($grey, 5%);
+$greyDarker:         darken($grey, 10%);
+$greyDarkest:        darken($grey, 15%);
 
 
 
