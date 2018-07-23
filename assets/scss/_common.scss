@@ -125,3 +125,11 @@ article {
           grid-row: 2;
      }
 }
+
+.projects {
+     .projects--thumbs {
+          img {
+               width: 288px;
+          }
+     }
+}
