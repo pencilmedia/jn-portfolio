@@ -26,3 +26,15 @@ $ heroku buildpacks:set heroku/php --index 2
    1. heroku/nodejs
    2. heroku/php
  Run git push heroku master to create a new release using these buildpacks.
+
+
+
+Install buildpack:
+https://github.com/gcpantazis/heroku-buildpack-php-gruntjs
+
+
+
+
+ Create Procfile
+
+ Create app.js file
