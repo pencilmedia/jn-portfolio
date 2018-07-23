@@ -5,8 +5,10 @@
 $white:    		#fff;
 $black: 		     #000;
 $grey:              #666;
-$greySoft:          #fafafa;
-
+$greySoft:          #cacaca;
+$blueGrey:          #35404C;
+$blueBright:        #0090D2;
+$orange:            #f16a22;
 
 // Colors
 $greyLightest:       lighten($grey, 55%);
@@ -15,10 +17,6 @@ $greyLight:          lighten($grey, 25%);
 $greyDark:           darken($grey, 5%);
 $greyDarker:         darken($grey, 10%);
 $greyDarkest:        darken($grey, 15%);
-
-
-
-
 
 
 

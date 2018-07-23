@@ -23,3 +23,17 @@ And open http://localhost:8000 in your browser.
 To clean build:
 
     $ npm run clean
+
+
+## Design Notes
+Use 8pt grid system for spacing/sizing
+https://builttoadapt.io/intro-to-the-8-point-grid-system-d2573cde8632
+
+Target resolution: 
+Mobile First
+
+480px
+
+and 
+
+1440px
