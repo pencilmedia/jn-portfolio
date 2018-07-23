@@ -1,0 +1,46 @@
+/* BEGIN: styles.scss
+// -----------------------------------------------------*/
+/* BEGIN: _var.scss
+// -----------------------------------------------------*/
+/* COLORS */
+/* Common */
+/* Typography */
+html,
+body {
+  color: #333;
+  font-family: "Inconsolata", Helvetica, sans-serif;
+  font-weight: normal;
+  background: #f2f2f2; }
+
+a {
+  color: #c06000; }
+
+.box-color {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 5px 10px 0; }
+  .box-color.black {
+    background: #000; }
+  .box-color.black-light {
+    background: #4d4c4c; }
+  .box-color.black-lighter {
+    background: #999999; }
+  .box-color.black-lightest {
+    background: #e6e5e5; }
+  .box-color.grey-lightest {
+    background: #f2f2f2; }
+  .box-color.grey-lighter {
+    background: #e6e5e5; }
+  .box-color.grey-light {
+    background: #d9d9d9; }
+  .box-color.grey {
+    background: #ccc; }
+  .box-color.grey-dark {
+    background: #bfbfbf; }
+  .box-color.grey-darker {
+    background: #b3b2b2; }
+  .box-color.grey-darkest {
+    background: #999999; }
+
+/*# sourceMappingURL=global.css.map */

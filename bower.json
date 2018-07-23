@@ -1,0 +1,21 @@
+{
+  "name": "PHP_prototype",
+  "description": "",
+  "main": "gruntfile.js",
+  "authors": [
+    "Ralph A. Garcia",
+    "screenchef.com"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "animate.css": "^3.5.2"
+  }
+}
