@@ -20,4 +20,7 @@ https://devcenter.heroku.com/articles/deploying-php
 - install composer
 - create composer.json
 - create Procfile
+     web: vendor/bin/heroku-php-apache2 app/
+
+     make sure to point to "app/" above
 
