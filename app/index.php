@@ -10,7 +10,7 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
-<title><?php echo hmpgTitle ?></title>
+<title><?php echo jnTitle ?></title>
 <?php include("inc/head.inc.php"); ?>
 </head>
 <body>
@@ -25,8 +25,8 @@
 			</section>
 			<section class="grid--item bio--info">
 				<h3>Joel Nave</h3>
-				<h5>Product Design Leader</h5>
-				<ul class="list list--contact">
+				<h5 class="underline">Product Design Leader</h5>
+				<ul class="list--no-bullet">
 					<li>
 						<a href="mailto:joelnave@gmail.com">joelnave@gmail.com</a>
 					</li>
@@ -56,15 +56,15 @@
 				<div class="projects--featured">
 					<span>
 						<img src="assets/images/projects/1_demandcenter_campaign_builder.png" alt="Thumbnail">
-						<h>eTrigue DemandCenter Redesign</h>
+						<h5>eTrigue DemandCenter Redesign</h5>
 					</span>
 					<span>
 						<img src="assets/images/projects/2_ sapare_dashboard.png" alt="Thumbnail">
-						<h>Vendavo Profit Analyzer Redesign</h>
+						<h5>Vendavo Profit Analyzer Redesign</h5>
 					</span>
 					<span>
 						<img src="assets/images/projects/3_vsnb.png" alt="Thumbnail">
-						<h>Vendavo Deal Guide Design</h>
+						<h5>Vendavo Deal Guide Design</h5>
 					</span>
 				</div>
 				<img src="assets/images/projects/4_bom_adv.png" alt="Thumbnail">
@@ -77,12 +77,12 @@
 				<img src="assets/images/projects/11_konablue.png" alt="Thumbnail">
 			</div>
 		</article>
-		<article class="grid grid-2-col process--ux">
+		<article class="grid grid-2-col grid--space">
 			<h3>Process</h3>
-			<section class="grid--item process--photo">
+			<section class="grid--item grid--col-1">
 				<img src="assets/images/ucd_lowres.png" alt="User-Centered Design Process" />
 			</section>
-			<section class="grid--item process--info">
+			<section class="grid--item grid--col-2">
 				<p>
 				Nulla do ad velit occaecat deserunt. Eu ad aute ex reprehenderit do occaecat excepteur adipisicing et incididunt laborum laborum enim. Deserunt ut aliquip mollit veniam do eiusmod in est officia eiusmod ea deserunt.
 				</p>

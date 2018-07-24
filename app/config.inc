@@ -1,11 +1,9 @@
 <?php
-define("hmpgTitle", "Portfolio of Joel Nave: Product Design Leader");
-define("portfolioTitle", "screenchef : portfolio");
-define("aboutTitle", "screenchef : about");
+define("jnTitle", "Joel Nave: Product Design Leader");
 
 // Set the path that will be used in include files
-define("path", "http://www.screenchef.com");
-define("mainphone", "408.398.1976");
+define("path", "http://www.joelnave.com");
+define("mainphone", "408.333.4444");
 
 // Years Experience
 $date_1 = new DateTime( '2000-01-01' );

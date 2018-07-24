@@ -1,13 +1,14 @@
 /* BEGIN: _typography.scss
 // -----------------------------------------------------*/
 
-
 h1, h2, h3, h4, h5, h6 {
+     font-weight: 200;
      margin: 0;
-     padding: 0 0 8px 0;
+     padding: 0 0 8px 0; // 8pt grid system
+     &.underline {
+          border-bottom: 1px solid $borderColor;
+     }
 }
-
-// 8pt grid system
 h1 {
      font-size: 36px;
 }
