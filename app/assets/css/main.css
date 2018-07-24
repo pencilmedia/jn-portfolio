@@ -455,6 +455,25 @@ article {
 .projects .projects--thumbs img {
   width: 288px; }
 
+.projects .projects--thumbs .projects--featured {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #cacaca; }
+  .projects .projects--thumbs .projects--featured span {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    margin-right: 8px; }
+    .projects .projects--thumbs .projects--featured span:last-child {
+      margin-right: 0; }
+    .projects .projects--thumbs .projects--featured span strong {
+      line-height: 24px;
+      margin-top: auto;
+      font-size: 14px; }
+
 /* BEGIN: _nav.scss
 // -----------------------------------------------------*/
 .footer.footer--global {

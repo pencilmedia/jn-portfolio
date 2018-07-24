@@ -53,9 +53,20 @@
 		<article class="projects">
 			<h3>Projects</h3>
 			<div class="projects--thumbs">
-				<img src="assets/images/projects/1_demandcenter_campaign_builder.png" alt="Thumbnail">
-				<img src="assets/images/projects/2_ sapare_dashboard.png" alt="Thumbnail">
-				<img src="assets/images/projects/3_vsnb.png" alt="Thumbnail">
+				<div class="projects--featured">
+					<span>
+						<img src="assets/images/projects/1_demandcenter_campaign_builder.png" alt="Thumbnail">
+						<strong>eTrigue DemandCenter Redesign</strong>
+					</span>
+					<span>
+						<img src="assets/images/projects/2_ sapare_dashboard.png" alt="Thumbnail">
+						<strong>Vendavo Profit Analyzer Redesign</strong>
+					</span>
+					<span>
+						<img src="assets/images/projects/3_vsnb.png" alt="Thumbnail">
+						<strong>Vendavo Deal Guide Design</strong>
+					</span>
+				</div>
 				<img src="assets/images/projects/4_bom_adv.png" alt="Thumbnail">
 				<img src="assets/images/projects/5_account_stats_dashboard.png" alt="Thumbnail">
 				<img src="assets/images/projects/6_vpa.png" alt="Thumbnail">
