@@ -19,11 +19,11 @@
     <![endif]-->
     <main>
         <?php include("inc/nav.inc.php"); ?>
-		<article class="grid bio">
-			<section class="bio--photo">
+		<article class="grid grid-2-col bio">
+			<section class="grid--item bio--photo">
 				<img src="assets/images/photo_jn.png" alt="Joel Nave: Product Design Leader" />
 			</section>
-			<section class="bio--info">
+			<section class="grid--item bio--info">
 				<h3>Joel Nave</h3>
 				<h5>Product Design Leader</h5>
 				<ul class="list list--contact">
@@ -56,15 +56,15 @@
 				<div class="projects--featured">
 					<span>
 						<img src="assets/images/projects/1_demandcenter_campaign_builder.png" alt="Thumbnail">
-						<strong>eTrigue DemandCenter Redesign</strong>
+						<h>eTrigue DemandCenter Redesign</h>
 					</span>
 					<span>
 						<img src="assets/images/projects/2_ sapare_dashboard.png" alt="Thumbnail">
-						<strong>Vendavo Profit Analyzer Redesign</strong>
+						<h>Vendavo Profit Analyzer Redesign</h>
 					</span>
 					<span>
 						<img src="assets/images/projects/3_vsnb.png" alt="Thumbnail">
-						<strong>Vendavo Deal Guide Design</strong>
+						<h>Vendavo Deal Guide Design</h>
 					</span>
 				</div>
 				<img src="assets/images/projects/4_bom_adv.png" alt="Thumbnail">
@@ -77,12 +77,12 @@
 				<img src="assets/images/projects/11_konablue.png" alt="Thumbnail">
 			</div>
 		</article>
-		<article class="grid process--ux">
+		<article class="grid grid-2-col process--ux">
 			<h3>Process</h3>
-			<section class="process--photo">
+			<section class="grid--item process--photo">
 				<img src="assets/images/ucd_lowres.png" alt="User-Centered Design Process" />
 			</section>
-			<section class="process--info">
+			<section class="grid--item process--info">
 				<p>
 				Nulla do ad velit occaecat deserunt. Eu ad aute ex reprehenderit do occaecat excepteur adipisicing et incididunt laborum laborum enim. Deserunt ut aliquip mollit veniam do eiusmod in est officia eiusmod ea deserunt.
 				</p>
