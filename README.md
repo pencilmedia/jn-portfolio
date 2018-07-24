@@ -14,5 +14,10 @@ http://blog.cloudoki.com/grunt-browsersync-love/
 
 ## Run Heroku PHP project
 https://devcenter.heroku.com/articles/getting-started-with-php
-
 https://devcenter.heroku.com/articles/deploying-php
+
+### Steps to create Heroku PHP project
+- install composer
+- create composer.json
+- create Procfile
+
