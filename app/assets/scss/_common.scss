@@ -3,6 +3,7 @@
 
 * {
     box-sizing: border-box;
+    transition: all .5s;
 }
 
 /* Highlight Text Color */
@@ -88,6 +89,16 @@ article {
             grid-row: 1/2;
         }
     }
+    &.grid--space {
+        h3 {
+            margin-bottom: 16px;
+        }
+        .grid--col-1 {
+            img {
+                width: 360px; // 8pt grid system
+            }
+        }
+    }
     .grid--item {
         // border:1px solid red;
         &.grid--col-1 {
@@ -105,16 +116,6 @@ article {
                 width: 256px; // 8pt grid system
                 border-radius: $borderRadius;
                 border: 1px solid $borderColor;
-            }
-        }
-    }
-    &.grid--space {
-        h3 {
-            margin-bottom: 16px;
-        }
-        .grid--col-1 {
-            img {
-                width: 360px; // 8pt grid system
             }
         }
     }
