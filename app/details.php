@@ -15,7 +15,7 @@
 </head>
 <body>
     <!--[if lt IE 7]>
-        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     <main>
         <?php include("inc/nav.inc.php"); ?>
@@ -48,7 +48,7 @@
 				</p>
 			</section>
 			<section class="grid--item grid--col-2">
-				<img src="http://via.placeholder.com/540x300" alt="User-Centered Design project" />
+				<img src="https://via.placeholder.com/540x300" alt="User-Centered Design project" />
 			</section>
 		</article>
 		<article class="grid grid-2-col grid--space">
@@ -58,7 +58,7 @@
 				</p>
 			</section>
 			<section class="grid--item grid--col-2">
-				<img src="http://via.placeholder.com/540x300" alt="User-Centered Design project" />
+				<img src="https://via.placeholder.com/540x300" alt="User-Centered Design project" />
 			</section>
 		</article>
 		<article class="grid grid-2-col grid--space">
@@ -73,7 +73,7 @@
 				</ul>
 			</section>
 			<section class="grid--item grid--col-2">
-				<img src="http://via.placeholder.com/540x300" alt="User-Centered Design project" />
+				<img src="https://via.placeholder.com/540x300" alt="User-Centered Design project" />
 			</section>
 		</article>
 		<article class="grid grid-2-col grid--space">
@@ -83,7 +83,7 @@
 				</p>
 			</section>
 			<section class="grid--item grid--col-2">
-				<img src="http://via.placeholder.com/540x300" alt="User-Centered Design project" />
+				<img src="https://via.placeholder.com/540x300" alt="User-Centered Design project" />
 			</section>
 		</article>
 
@@ -99,7 +99,7 @@
 				</p>
 			</section>
 			<section class="grid--item grid--col-2">
-				<img src="http://via.placeholder.com/540x300" alt="User-Centered Design project" />
+				<img src="https://via.placeholder.com/540x300" alt="User-Centered Design project" />
 			</section>
 		</article>
 		<article class="grid grid-2-col grid--space">
@@ -109,7 +109,7 @@
 				</p>
 			</section>
 			<section class="grid--item grid--col-2">
-				<img src="http://via.placeholder.com/540x300" alt="User-Centered Design project" />
+				<img src="https://via.placeholder.com/540x300" alt="User-Centered Design project" />
 			</section>
 		</article>
 
