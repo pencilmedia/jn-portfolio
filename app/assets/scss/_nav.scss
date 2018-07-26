@@ -4,27 +4,51 @@ $navHeight: 48px;
 
 .nav {
      &.nav--global {
+          display: grid;
+          grid-template-columns: 48px auto;
           background: $blueGrey;
           height: $navHeight; // 8pt grid
-          text-align: center;
-          a {
-               display: inline-block;
-               color: $white;
-               text-decoration: none;
-               line-height: $navHeight;
-               min-width: 200px;
-               margin-right: 8px;
-               &:hover {
-                    color: $orange;
-                    background: lighten($blueGrey, 50%);
+          .nav--profile {
+               text-align: center;
+               display: table-cell;
+               vertical-align: middle;
+               align-self: center;
+               .nav--photo {
+                    border-radius: $borderRadius;
+                    border: 1px solid $white;
                }
-               &:last-child {
-                    margin-right: 0;
+               &:hover {
+                    .nav--photo {
+                         border-color: $greySoft;
+                         box-shadow: 0 0 10px 0 $white;
+                    }
+               }
+          }
+          .nav--items {
+               text-align: center;
+               .nav--item {
+                    display: inline-block;
+                    color: $white;
+                    text-decoration: none;
+                    line-height: $navHeight;
+                    min-width: 200px;
+                    margin-right: 8px;
+                    &:hover {
+                         color: $orange;
+                         background: lighten($blueGrey, 50%);
+                    }
+                    &:last-child {
+                         margin-right: 0;
+                    }
                }
           }
      }
 }
-
+.homepage {
+     .nav .nav--profile {
+           visibility: hidden;
+     }
+}
 @media screen and (max-width: $screen-md) {
      .nav {
           &.nav--global {
