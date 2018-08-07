@@ -20,10 +20,10 @@
     <main>
         <?php include("inc/nav.inc.php"); ?>
 		<article class="grid grid-2-col bio">
-			<section class="grid--item bio--photo">
+			<section class="grid--item bio--photo cushycms">
 				<img src="assets/images/photo_jn.png" alt="Joel Nave: Product Design Leader" />
 			</section>
-			<section class="grid--item bio--info">
+			<section class="grid--item bio--info cushycms">
 				<h3>Joel Nave</h3>
 				<h5 class="underline">Product Design Leader</h5>
 				<ul class="list--no-bullet">
@@ -37,36 +37,41 @@
 						<a href="#">Download Resume</a>
 					</li>
 				</ul>
-				<p>Twenty years of product design experience with fifteen years experience managing teams responsible for user research,
+				<p class="pull-left">Twenty years of product design experience with fifteen years experience managing teams responsible for user research,
 					interaction design, visual design, prototyping and user validation. Skilled at building innovative, cohesive design
 					teams that deliver value while communicating effectively with engineering, stakeholders, and customers. Have delivered
 					products, users experiences, and design systems for large and small companies for mobile, tablet, and desktop devices.
-					<ul>
-						<li>Introduced user entered design at four companies.</li>
-						<li>Launched a user experience team at three companies.</li>
-						<li>Over saw the development of design systems at three companies.</li>
-						<li>Hands on experience with all phases of software product design.</li>
-					</ul>
 				</p>
+				<ul class="pull-left">
+					<li>Introduced user entered design at four companies.</li>
+					<li>Launched a user experience team at three companies.</li>
+					<li>Over saw the development of design systems at three companies.</li>
+					<li>Hands on experience with all phases of software product design.</li>
+				</ul>
 			</section>
 		</article>
-		<article class="projects">
+		<article class="projects--featured cushycms">
 			<h3>Projects</h3>
 			<div class="projects--thumbs">
-				<div class="projects--featured">
-					<span>
-						<img src="assets/images/projects/1_demandcenter_campaign_builder.png" alt="Thumbnail">
-						<h5>eTrigue DemandCenter Redesign</h5>
-					</span>
-					<span>
-						<img src="assets/images/projects/2_ sapare_dashboard.png" alt="Thumbnail">
-						<h5>Vendavo Profit Analyzer Redesign</h5>
-					</span>
-					<span>
-						<img src="assets/images/projects/3_vsnb.png" alt="Thumbnail">
-						<h5>Vendavo Deal Guide Design</h5>
-					</span>
-				</div>
+				<a href="#" class="project-image">
+					<img src="assets/images/projects/etr_campaign_builder.svg" alt="Thumbnail">
+					<h5 class="project-title">eTrigue DemandCenter Redesign</h5>
+					<button>View this Project</button>
+				</a>
+				<a href="#" class="project-image">
+					<img src="assets/images/projects/ven_pa_dashboard.svg" alt="Thumbnail">
+					<h5 class="project-title">Vendavo Profit Analyzer Redesign</h5>
+					<button>View this Project</button>
+				</a>
+				<a href="#" class="project-image">
+					<img src="assets/images/projects/ven_dg_responsive.svg" alt="Thumbnail">
+					<h5 class="project-title">Vendavo Deal Guide Design</h5>
+					<button>View this Project</button>
+				</a>
+			</div>
+		</article>
+		<article class="projects">
+			<div class="projects--thumbs">
 				<img src="assets/images/projects/4_bom_adv.png" alt="Thumbnail">
 				<img src="assets/images/projects/5_account_stats_dashboard.png" alt="Thumbnail">
 				<img src="assets/images/projects/6_vpa.png" alt="Thumbnail">
@@ -77,12 +82,12 @@
 				<img src="assets/images/projects/11_konablue.png" alt="Thumbnail">
 			</div>
 		</article>
-		<article class="grid grid-2-col grid--space">
+		<article class="grid grid-2-col grid--space process">
 			<h3>Process</h3>
-			<section class="grid--item grid--col-1">
+			<section class="grid--item grid--col-1 cushycms">
 				<img src="assets/images/ucd_lowres.png" alt="User-Centered Design Process" />
 			</section>
-			<section class="grid--item grid--col-2">
+			<section class="grid--item grid--col-2 cushycms">
 				<p>
 				Nulla do ad velit occaecat deserunt. Eu ad aute ex reprehenderit do occaecat excepteur adipisicing et incididunt laborum laborum enim. Deserunt ut aliquip mollit veniam do eiusmod in est officia eiusmod ea deserunt.
 				</p>

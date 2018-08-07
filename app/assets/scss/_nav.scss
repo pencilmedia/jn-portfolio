@@ -31,8 +31,7 @@ $navHeight: 48px;
                     color: $white;
                     text-decoration: none;
                     line-height: $navHeight;
-                    min-width: 200px;
-                    margin-right: 8px;
+                    min-width: 150px;
                     &:hover {
                          color: $orange;
                          background: lighten($blueGrey, 50%);
@@ -47,15 +46,5 @@ $navHeight: 48px;
 .homepage {
      .nav .nav--profile {
            visibility: hidden;
-     }
-}
-@media screen and (max-width: $screen-md) {
-     .nav {
-          &.nav--global {
-               a {
-                    min-width: 100px;
-                    margin-right: 8px;
-               }
-          }
      }
 }
