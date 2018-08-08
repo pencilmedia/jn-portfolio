@@ -371,6 +371,18 @@ p {
         background: #b5c0cb; }
       .nav.nav--global .nav--items .nav--item:last-child {
         margin-right: 0; }
+  .nav.nav--global.navbar-fixed {
+    box-shadow: 0 1px 3px #4d4c4c;
+    height: 45px;
+    left: 0;
+    padding: 0 16px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    -webkit-backdrop-filter: blur(5px);
+    /* backdrop-filter is not fully supported yet; so far only on safari */
+    backdrop-filter: blur(5px); }
 
 .homepage .nav .nav--profile {
   visibility: hidden; }

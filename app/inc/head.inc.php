@@ -21,6 +21,7 @@
 <!-- CSS: Animate.css -->
 <?php //echo '<link rel="stylesheet" href="' . $ROOT . 'bower_components/animate.css/animate.min.css">'; ?>
 <!-- <link rel="stylesheet" href="bower_components/animate.css/animate.min.css" crossorigin="anonymous"> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <!-- Web Fonts -->
 <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
