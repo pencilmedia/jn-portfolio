@@ -4,13 +4,15 @@
 
 @import "color-palette";
 @import "var";
+@import "mixins";
 
+@import "animation";
 @import "typography";
 @import "nav";
+@import "buttons";
 @import "common";
+@import "layout";
 @import "footer";
-
-@import "homepage";
 
 // Keep last
 @import "responsive";

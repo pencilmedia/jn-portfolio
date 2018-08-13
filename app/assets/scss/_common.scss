@@ -26,55 +26,52 @@ html,
 body {
     height: 100%;
 }
-
 body {
     font-family: $bodyFontFamily;
     font-size: $bodyFontSize;
     color: $bodyColor;
-    background: $greyLightest;
+    // background: $greyLightest;
+    background: url('../images/bg_blur_white.png') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
 }
-
 main {
+    background: rgba(255, 255, 255, .6);
     min-height: 100%;
-    background: rgba(255, 255, 255, .4);
+    max-width: $screen-md;
+    margin: 0 auto;
+    box-shadow: 0 0 8px 0 $shadow;
 }
 
 a {
     color: $blueBright;
+    text-decoration: none;
+    [class*='fa-'] { // Font Awesome colors
+        color: $blueBright;
+        margin-right: 8px;
+    }
     &:hover {
         color: $orange;
+        text-decoration: underline;
+        [class*='fa-'] {
+            color: $purple;
+        }
     }
 }
 
-button {
-    background: $blueBright;
-    color: $white;
-    border: none;
-    border-radius: 24px;
-    padding: 8px 32px;
-}
-
-p {
-    text-shadow: 0 1px 0 $white;
+h1, h2, h3, h4, h5, h6, li, a, p {
+    @include textShadow($white);
 }
 
 ul {
-    li {
-        line-height: 24px;
-        text-shadow: 0 1px 0 $white;
-    }
-}
-
-article {
-    padding: 24px 4%; // 8pt grid system
-    p {
-        margin-top: 8px;
-    }
-    .list--no-bullet {
-        list-style: none;
+    &.list--no-bullet {
+        // list-style: none;
         padding-left: 0;
         li {
             padding-left: 8px; // 8pt grid system
         }
+    }
+    li {
+        line-height: 24px;
     }
 }

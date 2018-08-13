@@ -1,6 +1,6 @@
 <footer class="footer footer--global">
-    <h5>Thanks!</h5>
-    <a href="mailto:joelnave@gmail.com">joelnave@gmail.com</a><span>&bull;</span><a href="#">linkedin</a><span>&bull;</span><a href="#">download resume</a>
+    <h5>Thank You</h5>
+    <a href="mailto:joelnave@gmail.com">joelnave@gmail.com</a><span>&bull;</span><a href="https://www.linkedin.com/in/joelnave/">linkedin</a><span>&bull;</span><a href="#">download resume</a>
 </footer>
 
 <!-- Plugins -->

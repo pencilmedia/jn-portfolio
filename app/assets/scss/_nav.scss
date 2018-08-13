@@ -1,62 +1,64 @@
 /* BEGIN: _nav.scss
 // -----------------------------------------------------*/
-$navHeight: 48px;
 
-.nav {
-     &.nav--global {
-          display: grid;
-          grid-template-columns: 48px auto;
-          background: $blueGrey;
-          height: $navHeight; // 8pt grid
-          .nav--profile {
-               text-align: center;
-               display: table-cell;
-               vertical-align: middle;
-               align-self: center;
-               .nav--photo {
-                    border-radius: $borderRadius;
-                    border: 1px solid $white;
-               }
-               &:hover {
-                    .nav--photo {
-                         border-color: $greySoft;
-                         box-shadow: 0 0 10px 0 $white;
-                    }
-               }
-          }
-          .nav--items {
-               text-align: center;
-               .nav--item {
-                    display: inline-block;
-                    color: $white;
-                    text-decoration: none;
-                    line-height: $navHeight;
-                    min-width: 150px;
-                    &:hover {
-                         color: $orange;
-                         background: lighten($blueGrey, 50%);
-                    }
-                    &:last-child {
-                         margin-right: 0;
-                    }
-               }
-          }
-          &.navbar-fixed {
-              box-shadow: 0 1px 3px $greyDarker;
-              height: 45px;
-              left: 0;
-              padding: 0 16px;
-              position: fixed;
-              top: 0;
-              width: 100%;
-              z-index: 9999;
-              -webkit-backdrop-filter: blur(5px); /* backdrop-filter is not fully supported yet; so far only on safari */
-              backdrop-filter: blur(5px);
-          }
-     }
+.nav--global {
+    //   background: $blueGrey;
+    background: rgba(53, 64, 76, .9);
+    height: $navHeight; // 8pt grid
+    .nav--items {
+        text-align: center;
+        .nav--item {
+            display: inline-block;
+            color: $white;
+            text-decoration: none;
+            line-height: $navHeight;
+            min-width: 150px;
+            @include textShadow($black);
+            &:hover {
+                color: $orange;
+                background: rgba(255, 255, 255, .2);
+            }
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+    &.navbar-fixed {
+        box-shadow: 0 1px 3px $greyDarker;
+        height: 45px;
+        left: auto;
+        position: fixed;
+        top: 0;
+        width: $screen-md;
+        z-index: 9999;
+        -webkit-backdrop-filter: blur(5px);
+        /* backdrop-filter is not fully supported yet; so far only on safari */
+        backdrop-filter: blur(5px);
+    }
 }
+.nav--pages {
+    display: grid;
+    grid-template-columns: 48px auto;
+    .nav--profile {
+        text-align: center;
+        display: table-cell;
+        vertical-align: middle;
+        align-self: center;
+        .nav--photo {
+            border-radius: $borderRadius;
+            border: 1px solid $white;
+        }
+        &:hover {
+            .nav--photo {
+                border-color: $greySoft;
+                box-shadow: 0 0 10px 0 $white;
+            }
+        }
+    }
+}
+
 .homepage {
-     .nav .nav--profile {
-           visibility: hidden;
-     }
+    .nav .nav--profile {
+        visibility: hidden;
+    }
 }

@@ -5,18 +5,27 @@
 $white:    		#fff;
 $black: 		     #000;
 $grey:              #666;
+$blue:              #228be6;
 $greySoft:          #cacaca;
-$blueGrey:          #35404C;
-$blueBright:        #0090D2;
+$blueGrey:          #343a40;
+$blueBright:        #228be6;
 $orange:            #f16a22;
+$purple:   	     #502875;
 
 // Colors
-$greyLightest:       lighten($grey, 55%);
-$greyLighter:        lighten($grey, 40%);
+$greyLightest:       lighten($grey, 57%);
+$greyLighter:        lighten($grey, 50%);
 $greyLight:          lighten($grey, 25%);
 $greyDark:           darken($grey, 5%);
 $greyDarker:         darken($grey, 10%);
 $greyDarkest:        darken($grey, 15%);
+
+$blueDarkest:        darken($blue, 25%);
+$blueDarker:         darken($blue, 15%);
+$blueDark:           darken($blue, 10%);
+$blueLight:          lighten($blue, 35%);
+$blueLighter:        lighten($blue, 40%);
+$blueLightest:       lighten($blue, 45%);
 
 $hex-static-900: 	#636363;
 $hex-static-800: 	#f16a22;

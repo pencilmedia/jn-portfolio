@@ -1,25 +1,23 @@
 <?php
 // SETTING THE ROOT VARIABLE WE CAN USE IT TO CREATE RELATIVE PATHS
-    include("config.inc");
-    $ROOT = '/'; // Set root for relative paths
-    $thisPage="home"; 
+    include("../config.inc");
+    $ROOT = '../'; // Set root for relative paths
+    $thisPage="details"; 
 ?>
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html>
 <head>
 <title><?php echo jnTitle ?></title>
-<?php include("inc/head.inc.php"); ?>
+<?php include($ROOT . 'inc/head.inc.php'); ?>
+
 </head>
 <body>
     <!--[if lt IE 7]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     <main>
-        <?php include("inc/nav.inc.php"); ?>
-		<article class="grid grid-2-col">
+        <?php include($ROOT . "inc/nav-pages.inc.php"); ?>
+		<header class="grid grid-2-col main--section">
 			<section class="grid--item">
 				<h3>Profit Analyzer Redesign</h3>
 				<h5>Role: Project and Design Leadership</h5>
@@ -35,9 +33,9 @@
 					UX partnered with Engineering to evaluate various options for addressing these needs and it was agreed to start with a redesign and new user interface for Vendavo’s Profit Analyzer our bread-and-butter solution. We would also apply a design system that was in the works for Vendavo’s new Deal Guide solution.
 				</p>
 			</section>
-		</article>
+		</header>
 		<!-- BEGIN: Section 1 -->
-		<article class="grid grid-2-col grid--space">
+		<section class="grid grid-2-col grid--space main--section">
 			<h3 class="underline">Research and Analysis</h3>
 			<section class="grid--item grid--col-1">
 				<p>
@@ -50,8 +48,8 @@
 			<section class="grid--item grid--col-2">
 				<img src="https://via.placeholder.com/540x300" alt="User-Centered Design project" />
 			</section>
-		</article>
-		<article class="grid grid-2-col grid--space">
+		</section>
+		<section class="grid grid-2-col grid--space main--section">
 			<section class="grid--item grid--col-1">
 				<p>
 					With lots of user data we began to model them developing personas, user journeys, and stories. 
@@ -60,8 +58,8 @@
 			<section class="grid--item grid--col-2">
 				<img src="https://via.placeholder.com/540x300" alt="User-Centered Design project" />
 			</section>
-		</article>
-		<article class="grid grid-2-col grid--space">
+		</section>
+		<section class="grid grid-2-col grid--space main--section">
 			<section class="grid--item grid--col-1">
 				<p>
 					We identified three user personas and began socializing them with the organization making them visible and available for review and comment.
@@ -75,8 +73,8 @@
 			<section class="grid--item grid--col-2">
 				<img src="https://via.placeholder.com/540x300" alt="User-Centered Design project" />
 			</section>
-		</article>
-		<article class="grid grid-2-col grid--space">
+		</section>
+		<section class="grid grid-2-col grid--space main--section">
 			<section class="grid--item grid--col-1">
 				<p>
 					We presented key findings from our user research and introduced the user personas and stories to the executive team and department leads proposing goals and an approach to the redesign gaining alignment across the organization.
@@ -85,10 +83,10 @@
 			<section class="grid--item grid--col-2">
 				<img src="https://via.placeholder.com/540x300" alt="User-Centered Design project" />
 			</section>
-		</article>
+		</section>
 
 		<!-- BEGIN: Section 2 -->
-		<article class="grid grid-2-col grid--space">
+		<section class="grid grid-2-col grid--space main--section">
 			<h3 class="underline">Design and Refinement</h3>
 			<section class="grid--item grid--col-1">
 				<p>
@@ -101,8 +99,8 @@
 			<section class="grid--item grid--col-2">
 				<img src="https://via.placeholder.com/540x300" alt="User-Centered Design project" />
 			</section>
-		</article>
-		<article class="grid grid-2-col grid--space">
+		</section>
+		<section class="grid grid-2-col grid--space main--section">
 			<section class="grid--item grid--col-1">
 				<p>
 				Over several design sprints the team iterated on designs through whiteboard sessions, wireframes, high fidelity mock-ups, and prototypes with user and internal feedback sessions informing our design decisions.
@@ -111,13 +109,13 @@
 			<section class="grid--item grid--col-2">
 				<img src="https://via.placeholder.com/540x300" alt="User-Centered Design project" />
 			</section>
-		</article>
+		</section>
 
 
 
 
 
-        <?php include("inc/foot.inc.php"); ?>   
+        <?php include($ROOT . "inc/foot.inc.php"); ?>   
     </main> 
 </body>
 </html>

@@ -1,10 +1,7 @@
-<nav class="nav nav--global">
-    <a href="index.php" class="nav--profile">
-        <img src="assets/images/photo_jn.png" alt="Joel Nave: Product Design Leader" height="38px" class="nav--photo" />
-    </a>
+<nav class="nav nav--global animated fadeInDown">
     <div class="nav--items">
-        <a href="#" class="nav--item">About</a>
-        <a href="index.php" class="nav--item">Projects</a>
-        <a href="details.php" class="nav--item">Process</a>
+        <a href="#jump-about" class="nav--item">About</a>
+        <a href="#jump-projects" class="nav--item">Projects</a>
+        <a href="#jump-process" class="nav--item">Process</a>
     </div>
 </nav>

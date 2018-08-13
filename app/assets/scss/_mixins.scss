@@ -1,0 +1,33 @@
+/* BEGIN: _mixin.scss
+// -----------------------------------------------------*/
+@mixin imgShadow {
+    box-shadow: 0 0 8px 0 $shadow;
+    border-radius: $borderRadius;
+}
+
+@mixin textShadow($color) {
+    text-shadow: 0 1px 0 $color;
+}
+
+@mixin horizontalDashedBottom {
+    /*Horizontal*/
+    background-image: linear-gradient(to right, black 33%, rgba(255,255,255,0) 0%);
+    background-position: bottom;
+    background-size: 4px 1px;
+    background-repeat: repeat-x;
+}
+@mixin horizontalDashedTop {
+    /*Horizontal*/
+    background-image: linear-gradient(to right, black 33%, rgba(255,255,255,0) 0%);
+    background-position: top;
+    background-size: 4px 1px;
+    background-repeat: repeat-x;
+}
+
+@mixin verticalDashed {
+    /*Vertical*/
+    background-image: linear-gradient(black 33%, rgba(255,255,255,0) 0%);
+    background-position: right;
+    background-size: 1px 3px;
+    background-repeat: repeat-y;
+}

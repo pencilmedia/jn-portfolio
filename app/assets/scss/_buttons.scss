@@ -1,0 +1,21 @@
+/* BEGIN: _buttons.scss
+// -----------------------------------------------------*/
+
+button {
+    background: $blueBright;
+    color: $white;
+    border: none;
+    border-radius: 24px;
+    padding: 8px 32px;
+    cursor: pointer;
+}
+
+.btn {
+    display: inline-block;
+    height: 32px;
+    background: $blueBright;
+    color: $white;
+    border: none;
+    border-radius: 24px;
+    padding: 8px 32px;
+}

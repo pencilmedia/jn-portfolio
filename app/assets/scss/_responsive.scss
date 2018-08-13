@@ -3,43 +3,40 @@
 
 // Full Screen
 @media screen and (min-width: $screen-md) {
-    main {
-        max-width: $screen-md;
-        margin: 0 auto;
-        box-shadow: 0 0 8px 0 $shadow;
-    }
+
 }
 
 // Phone/Tablet
-@media screen and (max-width: $screen-sm) {
+@media screen and (max-width: $screen-md) {
     // Navigation
     .nav {
-        &.nav--global {
-             display: grid;
-             grid-template-columns: 48px auto;
-             background: $blueGrey;
-             height: $navHeight; // 8pt grid
-             .nav--profile {
-                  text-align: center;
-                  display: table-cell;
-                  vertical-align: middle;
-                  align-self: center;
-                  .nav--photo {
-                       border-radius: $borderRadius;
-                       border: 1px solid $white;
-                  }
-                  &:hover {
-                       .nav--photo {
-                            border-color: $greySoft;
-                            box-shadow: 0 0 10px 0 $white;
-                       }
-                  }
-             }
-             .nav--items {
-                  .nav--item {
-                       min-width: 100px;
-                  }
-             }
+        &.navbar-fixed {
+            width: 100%;
+        }
+        .nav--pages {
+            display: grid;
+            grid-template-columns: 48px auto;
+            .nav--profile {
+                text-align: center;
+                display: table-cell;
+                vertical-align: middle;
+                align-self: center;
+                .nav--photo {
+                    border-radius: $borderRadius;
+                    border: 1px solid $white;
+                }
+                &:hover {
+                    .nav--photo {
+                        border-color: $greySoft;
+                        box-shadow: 0 0 10px 0 $white;
+                    }
+                }
+            }
+            .nav--items {
+                .nav--item {
+                    min-width: 100px;
+                }
+            }
         }
     }
     // Bio
@@ -53,9 +50,29 @@
                 }
             }
             .bio--info {
-                .pull-left {
+                .pull-left { // pull content beneath photo
                     margin-left: -156px;
                 }
+                .list--no-bullet {
+                    > li {
+                        display: block;
+                        margin-left: 0;
+                        padding-left: 0;
+                        &:before {
+                            content: '';
+                            padding: 0;
+                        }
+                        &:first-child {
+                            margin-left: 0;
+                            padding-left:0;
+                        }
+                        [class*='fa-'] {
+                            margin-right: 12px;
+                        }
+                    }
+                }
+            }
+            .bio--info {
             }
         }
     }

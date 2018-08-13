@@ -31,10 +31,6 @@
 <!-- CSS: Custom -->
 <?php echo '<link rel="stylesheet" title="Global Stylesheet" href="' . $ROOT . 'assets/css/main.css">'; ?>
 
-
-<!-- Modernizr JS: Must be in <HEAD> -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-
 <!-- jQuery CDN -->
 <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
