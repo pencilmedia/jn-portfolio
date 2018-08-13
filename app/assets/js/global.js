@@ -43,7 +43,7 @@
          setTimeout(
              function () {
                  mainNav.removeClass('navbar-fixed animated fadeInDown');
-             }, 1000
+             }, 2000
          );
 
          // CHECK IF NAV IS VISIBLE

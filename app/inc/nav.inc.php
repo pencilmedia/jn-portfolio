@@ -1,4 +1,4 @@
-<nav class="nav nav--global animated fadeInDown">
+<nav class="nav nav--global animate5s fadeInDown">
     <div class="nav--items">
         <a href="#jump-about" class="nav--item">About</a>
         <a href="#jump-projects" class="nav--item">Projects</a>
