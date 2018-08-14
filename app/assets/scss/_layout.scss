@@ -11,6 +11,10 @@
 
 .grid {
     display: grid;
+    &.grid-1-col {
+        grid-template-columns: 100%;
+        grid-row-gap: 32px;
+    }
     &.grid-2-col {
         grid-template-columns: auto 1fr;
         grid-column-gap: 32px; // 8pt grid system

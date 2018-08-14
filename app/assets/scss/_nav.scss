@@ -36,17 +36,23 @@
         backdrop-filter: blur(5px);
     }
 }
-.nav--pages {
+.nav--tier1 {
     display: grid;
-    grid-template-columns: 48px auto;
+    grid-template-columns: 50% auto;
     .nav--profile {
-        text-align: center;
-        display: table-cell;
-        vertical-align: middle;
-        align-self: center;
+        display: flex;
+        align-items: center;
+        color: $white;
+        text-shadow: 0 1px 0 $black;
+        align-items: center;
         .nav--photo {
             border-radius: $borderRadius;
             border: 1px solid $white;
+            margin: 0 16px;
+        }
+        [class*='fa-'] { // Font Awesome colors
+            color: $white;
+            margin-right: 8px;
         }
         &:hover {
             .nav--photo {

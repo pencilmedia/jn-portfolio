@@ -387,18 +387,23 @@ p {
     /* backdrop-filter is not fully supported yet; so far only on safari */
     backdrop-filter: blur(5px); }
 
-.nav--pages {
+.nav--tier1 {
   display: grid;
-  grid-template-columns: 48px auto; }
-  .nav--pages .nav--profile {
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-    align-self: center; }
-    .nav--pages .nav--profile .nav--photo {
+  grid-template-columns: 50% auto; }
+  .nav--tier1 .nav--profile {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-shadow: 0 1px 0 #000;
+    align-items: center; }
+    .nav--tier1 .nav--profile .nav--photo {
       border-radius: 8px;
-      border: 1px solid #fff; }
-    .nav--pages .nav--profile:hover .nav--photo {
+      border: 1px solid #fff;
+      margin: 0 16px; }
+    .nav--tier1 .nav--profile [class*='fa-'] {
+      color: #fff;
+      margin-right: 8px; }
+    .nav--tier1 .nav--profile:hover .nav--photo {
       border-color: #cacaca;
       box-shadow: 0 0 10px 0 #fff; }
 
@@ -456,7 +461,7 @@ body {
   background-attachment: fixed; }
 
 main {
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.4);
   min-height: 100%;
   max-width: 960px;
   margin: 0 auto;
@@ -496,6 +501,9 @@ ul li {
 
 .grid {
   display: grid; }
+  .grid.grid-1-col {
+    grid-template-columns: 100%;
+    grid-row-gap: 32px; }
   .grid.grid-2-col {
     grid-template-columns: auto 1fr;
     grid-column-gap: 32px; }

@@ -17,8 +17,8 @@
     <main>
 		<?php include("inc/nav.inc.php"); ?>
 		<header class="grid grid-2-col main--section bio" id="jump-about">
-			<section class="grid--item bio--photo cushycms">
-				<img src="assets/images/photo_jn.png" alt="Joel Nave: Product Design Leader" />
+			<section class="grid--item bio--photo">
+				<img src="assets/images/photo_jn.jpg" alt="Joel Nave: Product Design Leader" class="cushycms" />
 			</section>
 			<section class="grid--item bio--info cushycms">
 				<h3>Joel Nave</h3>
@@ -47,54 +47,54 @@
 				</ul>
 			</section>
 		</header>
-		<section class="main--section projects cushycms" id="jump-projects">
-			<h3>Projects</h3>
+		<section class="main--section projects" id="jump-projects">
+			<h3 class="cushycms">Projects</h3>
 			<div class="projects--thumbs projects--featured">
 				<a href="projects/details.php" class="project-image">
-					<img src="assets/images/projects/etr_campaign_builder.svg" alt="Thumbnail">
-					<h5 class="project-title">eTrigue DemandCenter Redesign</h5>
+					<img src="assets/images/projects/etr_campaign_builder.svg" alt="Thumbnail" class="cushycms">
+					<h5 class="project-title" class="cushycms">eTrigue DemandCenter Redesign</h5>
 					<button>View this Project</button>
 				</a>
 				<a href="projects/details.php" class="project-image">
-					<img src="assets/images/projects/ven_pa_dashboard.svg" alt="Thumbnail">
-					<h5 class="project-title">Vendavo Profit Analyzer Redesign</h5>
+					<img src="assets/images/projects/ven_pa_dashboard.svg" alt="Thumbnail" class="cushycms">
+					<h5 class="project-title" class="cushycms">Vendavo Profit Analyzer Redesign</h5>
 					<button>View this Project</button>
 				</a>
 				<a href="projects/details.php" class="project-image">
-					<img src="assets/images/projects/ven_dg_responsive.svg" alt="Thumbnail">
-					<h5 class="project-title">Vendavo Deal Guide Design</h5>
+					<img src="assets/images/projects/ven_dg_responsive.svg" alt="Thumbnail" class="cushycms">
+					<h5 class="project-title" class="cushycms">Vendavo Deal Guide Design</h5>
 					<button>View this Project</button>
 				</a>
 			</div>
 			<div class="projects--thumbs projects-archive">
 				<a href="#" class="project-image">
-					<img src="assets/images/projects/4_bom_adv.png" alt="Thumbnail">
+					<img src="assets/images/projects/4_bom_adv.png" alt="Thumbnail" class="cushycms">
 				</a>
 				<a href="#" class="project-image">
-					<img src="assets/images/projects/5_account_stats_dashboard.png" alt="Thumbnail">
+					<img src="assets/images/projects/5_account_stats_dashboard.png" alt="Thumbnail" class="cushycms">
 				</a>
 				<a href="#" class="project-image">
-					<img src="assets/images/projects/6_vpa.png" alt="Thumbnail">
+					<img src="assets/images/projects/6_vpa.png" alt="Thumbnail" class="cushycms">
 				</a>
 				<a href="#" class="project-image">
-					<img src="assets/images/projects/7_vsa.png" alt="Thumbnail">
+					<img src="assets/images/projects/7_vsa.png" alt="Thumbnail" class="cushycms">
 				</a>
 				<a href="#" class="project-image">
-					<img src="assets/images/projects/8_vsn.png" alt="Thumbnail">
+					<img src="assets/images/projects/8_vsn.png" alt="Thumbnail" class="cushycms">
 				</a>
 				<a href="#" class="project-image">
-					<img src="assets/images/projects/9_songo.png" alt="Thumbnail">
+					<img src="assets/images/projects/9_songo.png" alt="Thumbnail" class="cushycms">
 				</a>
 				<a href="#" class="project-image">
-					<img src="assets/images/projects/10_blueone.png" alt="Thumbnail">
+					<img src="assets/images/projects/10_blueone.png" alt="Thumbnail" class="cushycms">
 				</a>
 				<a href="#" class="project-image">
-					<img src="assets/images/projects/11_konablue.png" alt="Thumbnail">
+					<img src="assets/images/projects/11_konablue.png" alt="Thumbnail" class="cushycms">
 				</a>
 			</div>
 		</section>
 		<section class="grid grid-2-col grid--space main--section process" id="jump-process">
-			<h3>Process</h3>
+			<h3 class="cushycms">Process</h3>
 			<section class="grid--item grid--col-1 cushycms">
 				<img src="assets/images/ucd_lowres.png" alt="User-Centered Design Process" />
 			</section>
