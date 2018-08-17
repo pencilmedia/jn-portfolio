@@ -13,6 +13,13 @@
         &.navbar-fixed {
             width: 100%;
         }
+        &.nav--global {
+            .nav--items {
+                .nav--item {
+                    min-width: 100px;
+                }
+            }
+        }
         .nav--pages {
             display: grid;
             grid-template-columns: 48px auto;
@@ -78,8 +85,8 @@
     }
     // Projects
     .projects--featured {
-        .projects--thumbs {
-            flex-direction: column;
+        &.projects--thumbs {
+            flex-direction: row;
             .project-image {
                 display: flex;
                 flex-flow: column wrap;

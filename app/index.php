@@ -66,7 +66,8 @@
 					<button>View this Project</button>
 				</a>
 			</div>
-			<div class="projects--thumbs projects-archive">
+			<!-- NOTE: Uncomment below to bring back projects thumbnails -->
+			<!--div class="projects--thumbs projects-archive">
 				<a href="#" class="project-image">
 					<img src="assets/images/projects/4_bom_adv.png" alt="Thumbnail" class="cushycms">
 				</a>
@@ -91,7 +92,7 @@
 				<a href="#" class="project-image">
 					<img src="assets/images/projects/11_konablue.png" alt="Thumbnail" class="cushycms">
 				</a>
-			</div>
+			</div-->
 		</section>
 		<section class="grid grid-2-col grid--space main--section process" id="jump-process">
 			<h3 class="cushycms">Process</h3>
